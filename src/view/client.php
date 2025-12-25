@@ -37,5 +37,25 @@ class client
     {
         return $this->telephone;
     }
-}
+    public function setId($id)
+    {
+        $this->id = $id;            
+    }
+    public function setNom($nom)
+    {
+        $this->nom = $nom;            
+    }
+    public function setEmail($email)
+    {
+        $this->email = $email;            
+    }
+    public function setCin($cin)
+    {
+        $this->cin = $cin;            
+    }
+    public function setTelephone($telephone)
+    {
+        $this->telephone = $telephone;            
+    }
 
+}
