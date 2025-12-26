@@ -2,7 +2,8 @@
     "name": "pc/bank_app",
     "autoload": {
         "psr-4": {
-            "Src\\": "src/"
+            "Src\\": "src/",
+            "Config\\": "config/"
         }
     },
     "authors": [

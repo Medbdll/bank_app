@@ -2,7 +2,7 @@
 
 namespace Src\view;
 
-class client
+class Client
 {
     private $id;
     private $nom;
